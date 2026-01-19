@@ -107,6 +107,12 @@ def cli() -> None:
     help="Maximum cocurrency for processing",
 )
 @click.option(
+    "--temperature",
+    default=1.0,
+    type=float,
+    help="Temperature for model sampling",
+)
+@click.option(
     "--log-level",
     default="INFO",
     type=click.Choice(["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"]),

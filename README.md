@@ -68,6 +68,7 @@ python -m AdvancedIF.cli evaluate \
 - `--max_completion_tokens`: Maximum completion tokens for response
   (default: 32768)
 - `--max-concurrency`: Maximum concurrent API requests (default: 10)
+- `--temperature`: Temperature for model sampling (default: 1.0)
 - `--log-level`: Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL) (default:
   INFO)
 - `--log-file`: Optional path to log file
